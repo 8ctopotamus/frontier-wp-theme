@@ -22,14 +22,41 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'frontiertitle' ); ?></a>
+	<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'frontiertitle' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="site-branding">
-				<?php the_custom_logo(); ?>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="navbar-brand"><?php bloginfo( 'name' ); ?></a>
-			</div><!-- .site-branding -->
+		<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="site-branding">	
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="navbar-brand">
+					<img src="<?php echo get_template_directory_uri() . '/images/frontier-logo-horizontal.svg'?>" alt="Frontier Title LLC - logo">
+					<span class="sr-only"><?php bloginfo( 'name' ); ?></span>
+				</a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<?php
+				wp_nav_menu([
+					'menu'            => 'menu-1',
+					'theme_location'  => 'primary',
+					'container'       => 'div',
+					'container_id'    => 'bs4navbar',
+					'container_class' => 'collapse navbar-collapse',
+					'menu_id'         => false,
+					'menu_class'      => 'navbar-nav ml-auto',
+					'depth'           => 2,
+					'fallback_cb'     => 'bs4navwalker::fallback',
+					'walker'          => new bs4navwalker()
+				]);
+		  ?>
+		</nav> -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+			<div class="site-branding">	
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="navbar-brand">
+					<img src="<?php echo get_template_directory_uri() . '/images/frontier-logo-horizontal.svg'?>" alt="Frontier Title LLC - logo">
+					<span class="sr-only"><?php bloginfo( 'name' ); ?></span>
+				</a>
+			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>

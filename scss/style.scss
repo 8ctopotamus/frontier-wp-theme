@@ -105,7 +105,35 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 // @import "media/media";
 
-/*--------------------------------------------------------------
-# Bootstrap 4
---------------------------------------------------------------*/
+
+
+@import "variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+	padding-top: $navbar-height;
+	&.admin-bar {
+		.navbar.fixed-top {
+			top: $navbar-height;
+		}
+	}
+}
+
+h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
+
+.navbar-brand {
+	img {
+		display: block;
+		width: 220px;
+		height: auto;
+	}
+}
+
+.home {
+	.jumbotron {
+		height: 90vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
