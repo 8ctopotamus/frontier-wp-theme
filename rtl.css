@@ -1,0 +1,18 @@
+/*
+Theme Name: frontiertitle
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+/*
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+*/
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJ0bC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7OztFQVNFOztBQUVGOzs7OztFQUtFIiwiZmlsZSI6InJ0bC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuVGhlbWUgTmFtZTogZnJvbnRpZXJ0aXRsZVxuXG5BZGRpbmcgc3VwcG9ydCBmb3IgbGFuZ3VhZ2VzIHdyaXR0ZW4gaW4gYSBSaWdodCBUbyBMZWZ0IChSVEwpIGRpcmVjdGlvbiBpcyBlYXN5IC1cbml0J3MganVzdCBhIG1hdHRlciBvZiBvdmVyd3JpdGluZyBhbGwgdGhlIGhvcml6b250YWwgcG9zaXRpb25pbmcgYXR0cmlidXRlc1xub2YgeW91ciBDU1Mgc3R5bGVzaGVldCBpbiBhIHNlcGFyYXRlIHN0eWxlc2hlZXQgZmlsZSBuYW1lZCBydGwuY3NzLlxuXG5odHRwczovL2NvZGV4LndvcmRwcmVzcy5vcmcvUmlnaHQtdG8tTGVmdF9MYW5ndWFnZV9TdXBwb3J0XG5cbiovXG5cbi8qXG5ib2R5IHtcblx0ZGlyZWN0aW9uOiBydGw7XG5cdHVuaWNvZGUtYmlkaTogZW1iZWQ7XG59XG4qL1xuIl19 */
