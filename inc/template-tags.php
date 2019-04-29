@@ -127,7 +127,9 @@ if ( ! function_exists( 'frontiertitle_post_thumbnail' ) ) :
 			?>
 
 			<div class="post-thumbnail">
-				<?php the_post_thumbnail(); ?>
+				<?php the_post_thumbnail('full', array(
+					'class' => 'img-fluid'
+				)); ?>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>
@@ -135,6 +137,7 @@ if ( ! function_exists( 'frontiertitle_post_thumbnail' ) ) :
 		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
 			<?php
 			the_post_thumbnail( 'post-thumbnail', array(
+				'class' => 'img-fluid',
 				'alt' => the_title_attribute( array(
 					'echo' => false,
 				) ),

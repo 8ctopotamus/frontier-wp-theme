@@ -48,7 +48,7 @@ get_header();
 		<div class="row">
 			<div class="col-md-4">
 				<div class="card">
-					<img src="https://placehold.it/300x200" class="card-img-top" alt="...">
+					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h3 class="card-title display-4">Card title</h3>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -58,7 +58,7 @@ get_header();
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="https://placehold.it/300x200" class="card-img-top" alt="...">
+					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h3 class="card-title display-4">Card title</h3>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -68,7 +68,41 @@ get_header();
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="https://placehold.it/300x200" class="card-img-top" alt="...">
+					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h3 class="card-title display-4">Card title</h3>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid text-center">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card">
+					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h3 class="card-title display-4">Card title</h3>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h3 class="card-title display-4">Card title</h3>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h3 class="card-title display-4">Card title</h3>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

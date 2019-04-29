@@ -13,8 +13,8 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer container-fluid">
-		<div class="site-info">
+	<footer id="colophon" class="site-footer container">
+		<div class="site-info text-center">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'frontiertitle' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
