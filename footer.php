@@ -16,21 +16,23 @@
 	<footer id="colophon" class="site-footer">
 		<div class="container">
 			<div class="row">
-			<a href="<?php echo site_url(); ?>">
+				<div class="col-md-3">
+					<a href="<?php echo site_url(); ?>">
 						<img class="footer-logo" src="<?php echo get_template_directory_uri() . '/images/frontier-logo-vertical.svg'; ?>" alt="Frontier Title LLC - Logo" />
 					</a>
+				</div>
 				<?php if ( is_active_sidebar( 'footer-1' ) ) { ?>
-					<aside id="secondary" class="widget-area col-md-4">
+					<aside id="secondary" class="widget-area col-md-3">
 						<?php dynamic_sidebar( 'footer-1' ); ?>
 					</aside><!-- #secondary -->
 				<?php } ?>
 				<?php if ( is_active_sidebar( 'footer-2' ) ) { ?>
-					<aside id="secondary" class="widget-area col-md-4">
+					<aside id="secondary" class="widget-area col-md-3">
 						<?php dynamic_sidebar( 'footer-2' ); ?>
 					</aside><!-- #secondary -->
 				<?php } ?>
 				<?php if ( is_active_sidebar( 'footer-3' ) ) { ?>
-					<aside id="secondary" class="widget-area col-md-4">
+					<aside id="secondary" class="widget-area col-md-3">
 						<?php dynamic_sidebar( 'footer-3' ); ?>
 					</aside><!-- #secondary -->
 				<?php } ?>

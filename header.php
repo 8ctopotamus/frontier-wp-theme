@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'frontiertitle' ); ?></a>
+	<a class="skip-link sr-only sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'frontiertitle' ); ?></a>
 
 	<header id="masthead" class="site-header">
 		<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">

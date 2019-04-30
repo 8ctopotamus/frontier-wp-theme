@@ -32,10 +32,12 @@ get_header();
 					?>
 					</main><!-- #main -->
 				</div>
+				<div class="col-md-3">
+					<?php get_sidebar(); ?>
+				</div>
 			</div>
 		</div>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

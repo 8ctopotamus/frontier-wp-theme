@@ -26,7 +26,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 body, html {
-  height: 100%;
+	height: 100%;
+	background: #fbfbfb;
 }
 
 body {
@@ -72,23 +73,39 @@ h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
 	background: $lightGrey;
 	.footer-logo {
 		display: block;
-		width: 200px;
+		max-width: 200px;
 		height: auto;
-		margin: 2rem auto;
+		margin-top: 10px;
+	}
+	.site-info {
+		margin-top: 70px;
 	}
 }
 
 .parallax {
-  /* The image used */
   background-image: url("https://city.milwaukee.gov/ImageLibrary/BBC/Homepage/Slider/hero-5.jpg");
-  /* Full height */
   height: 100%;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
+}
+
+article {
+	&.post {
+		background: white;		
+		box-shadow: 0px 1px 3px rgba(0, 0, 0, .25);
+		margin-bottom: 50px;
+		padding: 20px;
+	}
+	.post-thumbnail {
+		margin-bottom: 25px;
+	}
+}
+
+.widget {
+	margin-bottom: 30px;
 }
 
  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
