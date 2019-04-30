@@ -1,7 +1,7 @@
 /*!
 Theme Name: frontiertitle
 Theme URI: http://underscores.me/
-Author: Zylo
+Author: Josh <josh@icshelpsyou.com>
 Author URI: https://icshelpsyou.com
 Description: A customt theme for FrontierTitle, LLC.
 Version: 1.0.0
@@ -20,101 +20,20 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-	## Posts and pages
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
---------------------------------------------------------------*/
-// @import "variables-site/variables-site";
-// @import "mixins/mixins-master";
-
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
-// @import "normalize";
-
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
-// @import "typography/typography";
-
-/*--------------------------------------------------------------
-# Elements
---------------------------------------------------------------*/
-// @import "elements/elements";
-
-/*--------------------------------------------------------------
-# Forms
---------------------------------------------------------------*/
-// @import "forms/forms";
-
-/*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
-// @import "navigation/navigation";
-
-/*--------------------------------------------------------------
-# Accessibility
---------------------------------------------------------------*/
 // @import "modules/accessibility";
-
-/*--------------------------------------------------------------
-# Alignments
---------------------------------------------------------------*/
-// @import "modules/alignments";
-
-/*--------------------------------------------------------------
-# Clearings
---------------------------------------------------------------*/
-// @import "modules/clearings";
-
-/*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
-// @import "site/secondary/widgets";
-
-/*--------------------------------------------------------------
-# Content
---------------------------------------------------------------*/
-// @import "site/site";
-
-/*--------------------------------------------------------------
-# Infinite scroll
---------------------------------------------------------------*/
-// @import "modules/infinite-scroll";
-
-/*--------------------------------------------------------------
-# Media
---------------------------------------------------------------*/
 // @import "media/media";
-
-
-
 @import "variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+body, html {
+  height: 100%;
+}
 
 body {
 	padding-top: $navbar-height;
 	&.admin-bar {
 		.navbar.fixed-top {
-			top: $navbar-height;
+			top: $navbar-height / 2;
 		}
 	}
 }
@@ -131,10 +50,14 @@ h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
 
 .home {
 	.jumbotron {
-		height: 90vh;
+		height: 92vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		border-radius: 0;
+	}
+	.card {
+		margin-bottom: 30px;
 	}
 }
 
@@ -145,5 +68,32 @@ h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
 
 .site-footer {
 	padding-top: 6rem;
-	padding-bottom: 6rem;
+	padding-bottom: 4rem;
+	background: $lightGrey;
+	.footer-logo {
+		display: block;
+		width: 200px;
+		height: auto;
+		margin: 2rem auto;
+	}
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("https://city.milwaukee.gov/ImageLibrary/BBC/Homepage/Slider/hero-5.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+ /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+ @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+} 

@@ -118,6 +118,33 @@ function frontiertitle_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer 1', 'frontiertitle' ),
+		'id'            => 'footer-1',
+		'description'   => esc_html__( 'Add widgets here.', 'frontiertitle' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer 2', 'frontiertitle' ),
+		'id'            => 'footer-2',
+		'description'   => esc_html__( 'Add widgets here.', 'frontiertitle' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer 3', 'frontiertitle' ),
+		'id'            => 'footer-3',
+		'description'   => esc_html__( 'Add widgets here.', 'frontiertitle' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
 }
 add_action( 'widgets_init', 'frontiertitle_widgets_init' );
 
