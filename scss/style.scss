@@ -108,6 +108,16 @@ article {
 	margin-bottom: 30px;
 }
 
+.partner-logos {
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	img {
+		max-width: 180px;
+	}
+}
+
  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
  @media only screen and (max-device-width: 1366px) {
   .parallax {
