@@ -41,6 +41,23 @@ body {
 
 h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
 
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	margin: 0 auto;
+}
+
 .navbar-brand {
 	img {
 		display: block;
