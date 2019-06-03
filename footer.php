@@ -13,6 +13,16 @@
 
 	</div><!-- #content -->
 
+	<div class="container text-center">
+		<div class="partner-logos">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/partner-logos/cawr.jpg'; ?>" alt="CAWR logo" />
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/partner-logos/fatic.jpg'; ?>" alt="Fatic logo" />
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/partner-logos/fidelity.png'; ?>" alt="Fidelity logo" />
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/partner-logos/mba.jpg'; ?>" alt="MBA logo" />
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/partner-logos/wltalogo.png'; ?>" alt="WLTA logo" />
+		</div>
+	</div>
+
 	<footer id="colophon" class="site-footer">
 		<div class="container">
 			<div class="row">

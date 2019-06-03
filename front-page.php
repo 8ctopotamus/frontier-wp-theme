@@ -52,31 +52,31 @@ get_header();
 		<div class="row">
 			<div class="col-md-4">
 				<div class="card">
-					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/services/service-home-purchase.jpg';	?>" class="card-img-top" alt="Home Purchase" />
 					<div class="card-body">
 						<h3 class="card-title display-4">PURCHASE</h3>
 						<p class="card-text">We’ve built our reputation and business through excellent customer service.</p>
-						<a href="#" class="btn btn-secondary">Go somewhere</a>
+						<a href="<?php echo site_url() . '/place-an-order/purchase'; ?>" class="btn btn-secondary">Learn More</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/services/service-home-refinance.jpg'; ?>" class="card-img-top" alt="Home Refinance" />
 					<div class="card-body">
 						<h3 class="card-title display-4">REFINANCE</h3>
 						<p class="card-text">We can help you complete the refinance of your property.</p>
-						<a href="#" class="btn btn-secondary">Go somewhere</a>
+						<a href="<?php echo site_url() . '/place-an-order/refinance'; ?>" class="btn btn-secondary">Learn More</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/services/service-new-construction.jpg';?>" class="card-img-top" alt="New Construction" />
 					<div class="card-body">
 						<h3 class="card-title display-4">CONSTRUCTION</h3>
 						<p class="card-text">The most respected and experienced Construction Escrow Managers in all of Southeastern Wisconsin.</p>
-						<a href="#" class="btn btn-secondary">Go somewhere</a>
+						<a href="<?php echo site_url() . '/place-an-order/new-construction'; ?>" class="btn btn-secondary">Learn More</a>
 					</div>
 				</div>
 			</div>
@@ -86,31 +86,31 @@ get_header();
 		<div class="row">
 			<div class="col-md-4">
 				<div class="card">
-					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/services/service-letter-report.jpg';	?>" class="card-img-top" alt="Letter Report" />
 					<div class="card-body">
 						<h3 class="card-title display-4">REPORT</h3>
 						<p class="card-text">An explanation of what we find in doing a search of the public records.</p>
-						<a href="#" class="btn btn-secondary">Go somewhere</a>
+						<a href="<?php echo site_url() . '/place-an-order/letter-report'; ?>" class="btn btn-secondary">Learn More</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/services/service-fsbo.jpg';	?>" class="card-img-top" alt="For Sale By Owner" />
 					<div class="card-body">
 						<h3 class="card-title display-4">F.S.B.O.</h3>
 						<p class="card-text">More and more people like you are successfully marketing and selling properties by yourselves.</p>
-						<a href="#" class="btn btn-secondary">Go somewhere</a>
+						<a href="<?php echo site_url() . '/for-sale-by-owner'; ?>" class="btn btn-secondary">Learn More</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="https://placehold.it/300x180" class="card-img-top" alt="...">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/services/service-closing.jpg';	?>" class="card-img-top" alt="Closing">
 					<div class="card-body">
 						<h3 class="card-title display-4">CLOSING</h3>
 						<p class="card-text">Closing is the culmination of all the hard work put in by the lender, real estate agent, attorney and customer.</p>
-						<a href="#" class="btn btn-secondary">Go somewhere</a>
+						<a href="<?php echo site_url() . '/place-an-order/closing-services'; ?>" class="btn btn-secondary">Learn More</a>
 					</div>
 				</div>
 			</div>
