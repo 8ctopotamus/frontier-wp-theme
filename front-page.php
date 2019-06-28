@@ -14,15 +14,16 @@
 
 get_header();
 ?>
-	<div class="jumbotron text-center parallax">
+
+	<?php echo do_shortcode('[metaslider id="404"]'); ?>
+
+	<!-- <div class="jumbotron text-center parallax">
 		<div class="container">
-			<h1 class="display-2">MILWAUKEE TO MADISON,<br/> FARM COUNTRY TO LAKE COUNTRY,</h1>
+			<h2 class="display-2">MILWAUKEE TO MADISON,<br/> FARM COUNTRY TO LAKE COUNTRY,</h2>
 			<p class="lead">Frontier Title's Team of Top Industry Pros Services a 10 County Area.</p>
-			<p class="lead">
-				<a class="btn btn-primary btn-lg" href="<?php echo site_url() . '/contact-us'; ?>" role="button">LEARN MORE</a>
-			</p>
+			<p class="lead"><a class="btn btn-primary btn-lg" href="<?php echo site_url() . '/contact-us'; ?>" role="button">LEARN MORE</a></p>
 		</div>
-	</div>
+	</div> -->
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
@@ -48,7 +49,7 @@ get_header();
 		</div>
 	</div>
 
-	<div class="container-fluid text-center">
+	<div class="container-fluid text-center features-section">
 		<div class="row">
 			<div class="col-md-4">
 				<div class="card">
@@ -81,8 +82,6 @@ get_header();
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container-fluid text-center">
 		<div class="row">
 			<div class="col-md-4">
 				<div class="card">

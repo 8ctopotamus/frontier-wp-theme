@@ -77,6 +77,29 @@ h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
 	.card {
 		margin-bottom: 30px;
 	}
+
+	// metaslider slider captions
+	.metaslider .caption-wrap {
+		// display: inline-block;
+		background: transparent !important;
+		opacity: 1;
+		margin: 0 auto;
+		top: 0 !important;
+		left: 0 !important;
+		bottom: 0 !important;
+		right: 0 !important;
+		height: auto !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.caption {
+			background: rgba(0,0,0,.5);
+		}
+		.btn {
+			margin-top: 25px;
+		}
+	}
+
 }
 
 .content-area {
@@ -110,6 +133,9 @@ h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
 }
 
 article {
+	.entry-meta {
+		margin-bottom: 12px;
+	}
 	&.post {
 		background: white;		
 		box-shadow: 0px 1px 3px rgba(0, 0, 0, .25);
@@ -125,8 +151,11 @@ article {
 	margin-bottom: 30px;
 }
 
-.partner-logos {
+.partner-logos-container {
 	background: white;
+}
+
+.partner-logos {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
