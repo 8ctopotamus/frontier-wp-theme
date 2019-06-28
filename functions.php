@@ -178,6 +178,14 @@ function frontiertitle_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'frontiertitle_scripts' );
 
+
+// Replaces the excerpt "Read More" text by a link
+function new_excerpt_more($more) {
+	global $post;
+return '<a class="btn btn-primary btn-block btn-readmore" href="'. get_permalink($post->ID) . '"> Read more</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
 /**
  * Implement the Custom Header feature.
  */

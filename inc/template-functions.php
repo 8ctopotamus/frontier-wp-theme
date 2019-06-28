@@ -35,8 +35,3 @@ function frontiertitle_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'frontiertitle_pingback_header' );
-
-
-function frontier_title_render_states_options() {
-	
-}

@@ -79,7 +79,7 @@ if ( ! function_exists( 'frontiertitle_entry_footer' ) ) :
 				sprintf(
 					wp_kses(
 						/* translators: %s: post title */
-						__( 'Leave a Comment<span class="sr-only"> on %s</span>', 'frontiertitle' ),
+						__( ' | Leave a Comment<span class="sr-only"> on %s</span>', 'frontiertitle' ),
 						array(
 							'span' => array(
 								'class' => array(),
