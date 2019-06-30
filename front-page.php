@@ -39,12 +39,12 @@ get_header();
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-	<div class="jumbotron text-center parallax" style="background-image: url(https://startupnation.com/wp-content/uploads/2005/09/Screen-Shot-2017-01-18-at-11.11.00-AM.png);">
+	<div class="jumbotron text-center parallax" style="background-image: url(https://vps39590.inmotionhosting.com/~frontiertitle/wp-content/uploads/2019/06/blurry-conference-room.jpg);">
 		<div class="container">
 			<h2 class="display-2 text-body">WHO WE ARE</h2>
 			<p class="lead text-body">Frontier Title &amp; Closing Services is staffed with seasoned professionals,<br/> the majority with 10+ years of experience.</p>
 			<p class="lead">
-				<a class="btn btn-primary btn-lg" href="<?php echo site_url() . '/contact-us'; ?>" role="button">LEARN MORE</a>
+				<a class="btn btn-primary btn-lg" href="<?php echo site_url() . '/company-profile/company-directory/'; ?>" role="button">LEARN MORE</a>
 			</p>
 		</div>
 	</div>
@@ -116,12 +116,12 @@ get_header();
 		</div>
 	</div>
 
-	<div class="jumbotron text-center parallax" style="background-image: url(https://www.incimages.com/uploaded_files/image/970x450/handshake-pano_19966.jpg); margin-bottom: 0;">
+	<div class="jumbotron text-center parallax" style="background-image: url(https://vps39590.inmotionhosting.com/~frontiertitle/wp-content/uploads/2019/06/building.jpg); margin-bottom: 0;">
 		<div class="container">
-			<h1 class="display-2">MILWAUKEE TO MADISON,<br/> FARM COUNTRY TO LAKE COUNTRY,</h1>
+			<h1 class="display-2">Experience Our Team Approach To Operational Excellence</h1>
 			<p class="lead">Frontier Title’s Team of Top Industry Pros Services a 10 County Area.</p>
 			<p class="lead">
-				<a class="btn btn-primary btn-lg" href="<?php echo site_url() . '/contact-us'; ?>" role="button">LEARN MORE</a>
+				<a class="btn btn-primary btn-lg" href="<?php echo site_url() . '/commercial'; ?>" role="button">LEARN MORE</a>
 			</p>
 		</div>
 	</div>
