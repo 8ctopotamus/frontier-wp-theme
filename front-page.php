@@ -121,7 +121,7 @@ get_header();
 			<h1 class="display-2">Experience Our Team Approach To Operational Excellence</h1>
 			<p class="lead">Frontier Title’s Team of Top Industry Pros Services a 10 County Area.</p>
 			<p class="lead">
-				<a class="btn btn-primary btn-lg" href="<?php echo site_url() . '/commercial'; ?>" role="button">LEARN MORE</a>
+				<a class="btn btn-primary btn-lg" href="<?php echo site_url() . '/commercial'; ?>" role="button">LEARN MORE ABOUT OUR COMMERCIAL SERVICES</a>
 			</p>
 		</div>
 	</div>
