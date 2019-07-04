@@ -1,4 +1,16 @@
-<div class="jumbotron text-center parallax">
+<?php
+  $jumboClass = '';
+  $backgroundImageUrl = get_the_post_thumbnail_url(null, 'full');
+  $backgroundImageStyle = '';
+  
+  if ( !is_home() ) { $jumboClass = 'page-header'; } 
+  
+  if ($backgroundImageUrl) {
+    $backgroundImageStyle = 'style="background-image: url('.$backgroundImageUrl.');"';
+  }
+?>
+
+<div class="jumbotron text-center parallax <?php echo $jumboClass; ?>" <?php echo $backgroundImageStyle; ?>>
   <div class="container">
     <header class="entry-header">
       <?php

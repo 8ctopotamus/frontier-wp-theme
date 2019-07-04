@@ -41,8 +41,8 @@ get_header();
 
 	<div class="jumbotron text-center parallax" style="background-image: url(https://vps39590.inmotionhosting.com/~frontiertitle/wp-content/uploads/2019/06/blurry-conference-room.jpg);">
 		<div class="container">
-			<h2 class="display-2 text-body">WHO WE ARE</h2>
-			<p class="lead text-body">Frontier Title &amp; Closing Services is staffed with seasoned professionals,<br/> the majority with 10+ years of experience.</p>
+			<h2 class="display-2">WHO WE ARE</h2>
+			<p class="lead">Frontier Title &amp; Closing Services is staffed with seasoned professionals,<br/> the majority with 10+ years of experience.</p>
 			<p class="lead">
 				<a class="btn btn-primary btn-lg" href="<?php echo site_url() . '/company-profile/company-directory/'; ?>" role="button">LEARN MORE</a>
 			</p>
@@ -118,8 +118,8 @@ get_header();
 
 	<div class="jumbotron text-center parallax" style="background-image: url(https://vps39590.inmotionhosting.com/~frontiertitle/wp-content/uploads/2019/06/building.jpg); margin-bottom: 0;">
 		<div class="container">
-			<h1 class="display-2">Experience Our Team Approach To Operational Excellence</h1>
-			<p class="lead">Frontier Title’s Team of Top Industry Pros Services a 10 County Area.</p>
+			<h1 class="display-2">A Unique Approach To Commercial Title Transactions...<br/> Because Every Commercial Transaction Is Unique</h1>
+			<p class="lead">Experience Our Team Approach To Operational Excellence</p>
 			<p class="lead">
 				<a class="btn btn-primary btn-lg" href="<?php echo site_url() . '/commercial'; ?>" role="button">LEARN MORE ABOUT OUR COMMERCIAL SERVICES</a>
 			</p>

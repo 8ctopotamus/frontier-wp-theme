@@ -6,6 +6,11 @@ $border-radius: 0px !default;
 $btn-border-radius: 0px !default;
 $font-family-sans-serif: 'Barlow', sans-serif !default;
 $headings-font-family: 'Barlow Condensed', sans-serif !default;
+$dropdown-bg: $primary !default;
+$dropdown-link-color: #fff !default;
+$dropdown-border-color: transparent !default;
+$dropdown-link-active-color: $body-color !default;
+$dropdown-link-active-bg: #fff !default;
 
 // custom variables
 $navbar-height: 62px;

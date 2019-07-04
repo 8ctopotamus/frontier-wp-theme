@@ -20,11 +20,8 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
-// @import "modules/accessibility";
-// @import "media/media";
 @import "variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "orderform";
 
 body, html {
 	height: 100%;
@@ -94,7 +91,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
 		justify-content: center;
 		align-items: center;
 		.caption {
-			background: rgba(0,0,0,.5);
+			background: rgba(0,0,0,.35);
 		}
 		.btn {
 			margin-top: 25px;
@@ -170,85 +167,104 @@ article {
 	margin: 25px 0;
 }
 
-
-
-
-
-
-
-#orderFormContainer {
-	text-align: center;
-}
-
-.orderFormTable {
-	text-align: left;
-	border:1px solid #CCCCCC;
-	margin: 0 auto 25px auto;
-}
-
-.orderFormHeader {
-	padding: 10px;
-	margin: 10px;
-	font-size:24px;
-	font-weight: bold;
-}
-
-.orderFormSectionHeader {
-	padding: 10px;
-	margin: 10px;
-}
-
-.orderFormSection {
-	margin: 0px;
-	padding-bottom: 20px;
-}
-
-.orderFormSectionHeader {
-	background-color: #F4F4F5;
-	color: #515967;
-	font-weight: bold;
-	font-size: 14px;
-}
-
-.buyercompany {
-	display: none;
-}
-
-.sellercompany {
-	display: none;
-}
-
-.subheader {
-	padding: 20px 0px 0px 10px;
-	font-weight: bold;
-	font-size: 13px;
-}
-
-label {
-	display: inline-block;
-	text-align: right;
-}
-
-.labelright {
-	text-align: right;
+.testimonial_author {
+	.date { display: none; }
 }
 
 
 
 
+// #orderFormContainer {
+// 	text-align: center;
+// }
 
+// .orderFormTable {
+// 	text-align: left;
+// 	border:1px solid #CCCCCC;
+// 	margin: 0 auto 25px auto;
+// }
 
+// .orderFormHeader {
+// 	padding: 10px;
+// 	margin: 10px;
+// 	font-size:24px;
+// 	font-weight: bold;
+// }
 
+// .orderFormSectionHeader {
+// 	padding: 10px;
+// 	margin: 10px;
+// }
 
- /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
- @media only screen and (max-device-width: 1366px) {
+// .orderFormSection {
+// 	margin: 0px;
+// 	padding-bottom: 20px;
+// }
+
+// .orderFormSectionHeader {
+// 	background-color: #F4F4F5;
+// 	color: #515967;
+// 	font-weight: bold;
+// 	font-size: 14px;
+// }
+
+// .buyercompany {
+// 	display: none;
+// }
+
+// .sellercompany {
+// 	display: none;
+// }
+
+// .subheader {
+// 	padding: 20px 0px 0px 10px;
+// 	font-weight: bold;
+// 	font-size: 13px;
+// }
+
+// label {
+// 	display: inline-block;
+// 	// text-align: right;
+// }
+
+// .labelright {
+// 	text-align: right;
+// }
+
+.card-block {
+	padding: 15px;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
   }
-} 
+}
+
+.jumbotron {
+	text-shadow: 0px 3px 6px rgba(0,0,0,.75);
+
+	&.page-header {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+}
+
+
+
 
 @media (max-width: 820px) {
+	body {
+		padding-top: 50px;
+	}
+	.caption .display-2 {
+		font-size: 2.5rem;
+	}
   .jumbotron .display-2 {
-		font-size: 3rem;
-  }
+		font-size: 2.5rem;
+	}
+	.flex-control-nav {
+		display: none !important;
+	}
 } 
