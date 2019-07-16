@@ -173,66 +173,74 @@ article {
 
 
 
+/* Order Form */
+#orderFormContainer {
+	text-align: center;
+}
 
-// #orderFormContainer {
-// 	text-align: center;
-// }
+.orderFormTable {
+	text-align: left;
+	border: 1px solid #CCCCCC;
+	margin: 0 auto 25px auto;
 
-// .orderFormTable {
-// 	text-align: left;
-// 	border:1px solid #CCCCCC;
-// 	margin: 0 auto 25px auto;
-// }
+	input, select, textarea {
+		margin-bottom: 20px;
+	}
+}
 
-// .orderFormHeader {
-// 	padding: 10px;
-// 	margin: 10px;
-// 	font-size:24px;
-// 	font-weight: bold;
-// }
+.orderFormHeader {
+	padding: 10px;
+	margin: 10px;
+	font-size:24px;
+	font-weight: bold;
+}
 
-// .orderFormSectionHeader {
-// 	padding: 10px;
-// 	margin: 10px;
-// }
+.orderFormSectionHeader {
+	padding: 10px;
+	margin: 10px;
+}
 
-// .orderFormSection {
-// 	margin: 0px;
-// 	padding-bottom: 20px;
-// }
+.orderFormSection {
+	margin: 0px;
+	padding-bottom: 20px;
+}
 
-// .orderFormSectionHeader {
-// 	background-color: #F4F4F5;
-// 	color: #515967;
-// 	font-weight: bold;
-// 	font-size: 14px;
-// }
+.orderFormSectionHeader {
+	background-color: #F4F4F5;
+	color: #515967;
+	font-weight: bold;
+	font-size: 14px;
+}
 
-// .buyercompany {
-// 	display: none;
-// }
+.buyercompany {
+	display: none;
+}
 
-// .sellercompany {
-// 	display: none;
-// }
+.sellercompany {
+	display: none;
+}
 
-// .subheader {
-// 	padding: 20px 0px 0px 10px;
-// 	font-weight: bold;
-// 	font-size: 13px;
-// }
+.subheader {
+	padding: 20px 0px 0px 10px;
+	font-weight: bold;
+	font-size: 13px;
+}
 
-// label {
-// 	display: inline-block;
-// 	// text-align: right;
-// }
+label {
+	display: inline-block;
+}
 
-// .labelright {
-// 	text-align: right;
-// }
+.labelright {
+	text-align: right;
+}
 
 .card-block {
 	padding: 15px;
+}
+
+// Adds spacing between accordions on Company Directory page
+.page-id-210 .card {
+	margin-bottom: 15px;
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
@@ -251,9 +259,6 @@ article {
 	}
 }
 
-
-
-
 @media (max-width: 820px) {
 	body {
 		padding-top: 50px;
@@ -268,3 +273,7 @@ article {
 		display: none !important;
 	}
 } 
+
+@media (max-width: 767px) {
+	.labelright { text-align: left; }
+}

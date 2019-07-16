@@ -61,7 +61,8 @@ jQuery(document).ready(function() {
 	   	event.preventDefault();
 	   	var c = buyerCounter();
 	    if (c < 6) {
-		    var copy = jQuery('.buyer').clone();
+				var copy = jQuery('.buyer').clone();
+				copy.prepend('<hr/>');
 		    copy.attr('class', 'additionalbuyer');
 		    copy.find('input[type=text]').val('');
 		    copy.find('input[type=radio][name=buyertype]').attr({name: 'buyertype' + c}); 
@@ -82,12 +83,13 @@ jQuery(document).ready(function() {
 	   	event.preventDefault();
 	   	var c = sellerCounter();
 	   	if (c < 6) {
-		    var copy = jQuery('.seller').clone();
+				var copy = jQuery('.seller').clone();
+				copy.prepend('<hr/>');
 		    copy.attr('class', 'additionalseller');
 		    copy.find('input[type=text]').val('');
 		    copy.find('input[type=radio][name=sellertype]').attr({name: 'sellertype' + c}); 
 		    copy.find('input').each(function(i) {
-			   jQuery(this).attr('tabindex', c + i); 
+			   jQuery(this).attr('tabindex', c + i);
 		    });
 		    copy.appendTo('.additionalsellers');
 		    setSellerSwitch();

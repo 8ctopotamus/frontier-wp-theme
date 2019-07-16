@@ -89,44 +89,43 @@
 					</tr>
 				</table>				
 				
-	
 				
 				<table class="orderFormTable">
 					<tr><td class="orderFormSectionHeader">Property Information</td></tr>
 					<tr>
 					<td class="orderFormSection">
 						<div class="row row-pad">
-						    <div class="col-md-2 labelright"><label for="PropertyType">Property Type</label></div>
-						    <div class="col-md-2">
-							    <select class="required" name="PropertyType" tabindex="109">
-								    <option value="">- Select Property Type</option>
-								    <option value="Single Family">Single Family</option>
-										<option value="1-4 Family">1-4 Family</option>
-										<option value="PUD">PUD</option>
-										<option value="Condo">Condo</option>
-										<option value="Cooperative">Cooperative</option>
-										<option value="Unimproved">Unimproved</option>
-										<option value="Vacant Land">Vacant Land</option>
-										<option value="Other">Other</option>
-							    </select>
-						    </div>		
-						    <div class="col-md-2">&nbsp;</div>
-						    <div class="col-md-2"><input type="checkbox" name="PropertyTypeCommercial" value="Commercial" tabindex="110" />Commercial</div>		
-						    <div class="col-2-6"><input type="checkbox" name="PropertyTypeNew" value="New Construction" tabindex="111" />New Construction</div>		
+							<div class="col-md-2 labelright"><label for="PropertyType">Property Type</label></div>
+							<div class="col-md-2">
+								<select class="required" name="PropertyType" tabindex="109">
+									<option value="">- Select Property Type</option>
+									<option value="Single Family">Single Family</option>
+									<option value="1-4 Family">1-4 Family</option>
+									<option value="PUD">PUD</option>
+									<option value="Condo">Condo</option>
+									<option value="Cooperative">Cooperative</option>
+									<option value="Unimproved">Unimproved</option>
+									<option value="Vacant Land">Vacant Land</option>
+									<option value="Other">Other</option>
+								</select>
+							</div>		
+							<div class="col-md-2">&nbsp;</div>
+							<div class="col-md-2"><input type="checkbox" name="PropertyTypeCommercial" value="Commercial" tabindex="110" />Commercial</div>		
+							<div class="col-md-6"><input type="checkbox" name="PropertyTypeNew" value="New Construction" tabindex="111" />New Construction</div>		
 						</div>
 						
 						<div class="subheader">Address</div>		
 						<div class="row row-pad">
-						    <div class="col-md-2 labelright"><label for="PropertyAddress1">Address</label></div>
-						    <div class="col-md-2"><input type="text" class="form-control capitalize" name="PropertyAddress1" tabindex="112" /></div>
-						    <div class="col-md-2">&nbsp;</div>
-						    <div class="col-md-2 labelright"><label for="PropertyState">State</label></div>
-						    <div class="col-md-2">
+							<div class="col-md-2 labelright"><label for="PropertyAddress1">Address</label></div>
+							<div class="col-md-2"><input type="text" class="form-control capitalize" name="PropertyAddress1" tabindex="112" /></div>
+							<div class="col-md-2">&nbsp;</div>
+							<div class="col-md-2 labelright"><label for="PropertyState">State</label></div>
+							<div class="col-md-2">
 								<select name="PropertyState" class="state" tabindex="115">
 									<?php include('states.php'); ?>
 								</select>
 							</div>
-						    <div class="col-md-2">&nbsp;</div>
+							<div class="col-md-2">&nbsp;</div>
 						</div>
 						<div class="row row-pad">
 						    <div class="col-md-2">&nbsp;</div>
@@ -153,7 +152,7 @@
 						</div>	
 						<div class="row row-pad">
 						    <div class="col-md-2 labelright"><label for="LegalDescription">Legal Description</label></div>
-						    <div class="col-5-6"><textarea name="LegalDescription" rows="10" cols="80" tabindex="121" class="form-control"></textarea></div>
+						    <div class="col-md-8"><textarea name="LegalDescription" rows="10" cols="80" tabindex="121" class="form-control"></textarea></div>
 						</div>	
 														
 					</td>
@@ -167,7 +166,7 @@
 						<div class="buyer">
 							<div class="row row-pad">
 								<div class="col-md-2">&nbsp;</div>
-								<div class="col-4-6">
+								<div class="col-md-6">
 									<input type="radio" name="buyertype" value="person" checked="checked"  tabindex="124" /> Person
 									<input type="radio" name="buyertype" value="company" tabindex="125" /> Company
 								</div>
@@ -195,7 +194,7 @@
 							</div>								
 							<div class="row row-pad buyercompany">					
 							    <div class="col-md-2">Company Name</div>
-							    <div class="col-2-6"><input type="text" class="form-control capitalize" name="BuyerCompany[]" tabindex="134" /></div>
+							    <div class="col-md-6"><input type="text" class="form-control capitalize" name="BuyerCompany[]" tabindex="134" /></div>
 							</div>	
 							<div class="row row-pad">					
 								<div class="col-md-2 labelright"><label>Address</label></div>
@@ -244,7 +243,7 @@
 						
 						<div class="row row-pad">					
 						    <div class="col-md-2">&nbsp</div>
-						    <div class="col-md-2"><button id="btnAddBuyer">Add Buyer</button></div>
+						    <div class="col-md-2"><button id="btnAddBuyer" class="btn btn-secondary">Add Buyer</button></div>
 						</div>
 						
 					</td>
@@ -259,7 +258,7 @@
 						<div class="seller">						
 							<div class="row row-pad">
 								<div class="col-md-2">&nbsp;</div>
-								<div class="col-4-6">
+								<div class="col-md-6">
 									<input type="radio" name="sellertype" value="person" checked="checked" tabindex="144" /> Person
 									<input type="radio" name="sellertype" value="company" tabindex="145" /> Company						
 								</div>
@@ -290,7 +289,7 @@
 							</div>	
 							<div class="row row-pad sellercompany">					
 							    <div class="col-md-2">Company Name</div>
-							    <div class="col-2-6"><input type="text" class="form-control capitalize" name="SellerCompany[]" tabindex="154" /></div>
+							    <div class="col-md-6"><input type="text" class="form-control capitalize" name="SellerCompany[]" tabindex="154" /></div>
 							</div>						
 							<div class="row row-pad">					
 								<div class="col-md-2 labelright"><label>Address</label></div>
@@ -339,7 +338,7 @@
 						
 						<div class="row row-pad">					
 						    <div class="col-md-2">&nbsp</div>
-						    <div class="col-md-2"><button id="btnAddSeller">Add Seller</button></div>
+						    <div class="col-md-2"><button id="btnAddSeller" class="btn btn-secondary">Add Seller</button></div>
 						</div>
 						
 					</td>
@@ -601,15 +600,15 @@
 		
 						<div class="row row-pad">
 							<div class="col-md-2 labelright"><label for="woefile">Documents</label></div>
-							<div class="col-4-6"><input type="file" name="woeFile" id="woeFile" /></div>
+							<div class="col-md-6"><input type="file" name="woeFile" id="woeFile" /></div>
 						</div>
 						<div class="row row-pad">
 							<div class="col-md-2">&nbsp;</div>
-							<div class="col-4-6">To upload more than one file please put multiple files into a zipped folder.</div>
+							<div class="col-md-6">To upload more than one file please put multiple files into a zipped folder.</div>
 						</div>
 						<div class="row row-pad">
 							<div class="col-md-2 labelright"><label for="Notes">Notes</label></div>
-							<div class="col-4-6"><textarea name="Notes" rows="5" cols="50" tabindex="215" class="form-control"></textarea></div>
+							<div class="col-md-6"><textarea name="Notes" rows="5" cols="50" tabindex="215" class="form-control"></textarea></div>
 						</div>
 						
 					</td>
@@ -623,12 +622,12 @@
 
 						<div class="row row-pad">
 							<div class="col-md-2"></div>
-							<div class="col-4-6">Please enter your email address for order confirmation</div>
+							<div class="col-md-6">Please enter your email address for order confirmation</div>
 						</div>						
 		
 						<div class="row row-pad">
 							<div class="col-md-2 labelright"><label for="woefile">Email</label></div>
-							<div class="col-4-6"><input class="form-control required" type="text" name="email" id="email" size="40" /></div>
+							<div class="col-md-6"><input class="form-control required" type="text" name="email" id="email" size="40" /></div>
 						</div>
 
 						
