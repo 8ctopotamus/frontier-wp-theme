@@ -1,6 +1,13 @@
+
+var isIE = false
+// detect IE
 if (navigator.appName == 'Microsoft Internet Explorer' || !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/))) {
-	document.getElementById('frmOrder').innerHTML = 'Internet Explorer detected. This browser is not supported. Please use a <a href="https://bestvpn.org/outdatedbrow" target="_blank" rel="noopener noreferrer">modern browser</a> to place an order.';
+document.getElementById('frmOrder').innerHTML = '<div class="alert alert-warning text-center"><i class="fas fa-exclamation-triangle"></i> Internet Explorer detected. This browser is not supported. Please use a <a href="https://bestvpn.org/outdatedbrow" target="_blank" rel="noopener noreferrer">modern browser</a> to place an order.</div>';
 }
+
+
+
+
 
 
 
