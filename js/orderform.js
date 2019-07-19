@@ -1,3 +1,9 @@
+if (navigator.appName == 'Microsoft Internet Explorer' || !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/))) {
+	document.getElementById('frmOrder').innerHTML = 'Internet Explorer detected. This browser is not supported. Please use a <a href="https://bestvpn.org/outdatedbrow" target="_blank" rel="noopener noreferrer">modern browser</a> to place an order.';
+}
+
+
+
 var maxFileSize = 100 * 1024 * 1024;  // 100 MB
 var currentFileSize = 0;
 var requiredFields = {
