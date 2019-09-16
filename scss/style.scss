@@ -174,42 +174,20 @@ article {
 
 
 /* Order Form */
-#orderFormContainer {
-	text-align: center;
+#frmOrder .card {
+	margin-bottom: 25px;
 }
 
-.orderFormTable {
-	text-align: left;
-	border: 1px solid #CCCCCC;
-	margin: 0 auto 25px auto;
-
-	input, select, textarea {
-		margin-bottom: 20px;
-	}
+#frmOrder h6 {
+	margin-top: 10px;
 }
 
-.orderFormHeader {
-	padding: 10px;
-	margin: 10px;
-	font-size:24px;
-	font-weight: bold;
+#frmOrder .card-body .btn {
+	margin-top: 25px;
 }
 
-.orderFormSectionHeader {
-	padding: 10px;
-	margin: 10px;
-}
-
-.orderFormSection {
-	margin: 0px;
-	padding-bottom: 20px;
-}
-
-.orderFormSectionHeader {
-	background-color: #F4F4F5;
-	color: #515967;
-	font-weight: bold;
-	font-size: 14px;
+#frmOrder .card-body input[type="checkbox"] {
+	margin-right: 5px;
 }
 
 .buyercompany {
@@ -218,20 +196,6 @@ article {
 
 .sellercompany {
 	display: none;
-}
-
-.subheader {
-	padding: 20px 0px 0px 10px;
-	font-weight: bold;
-	font-size: 13px;
-}
-
-label {
-	display: inline-block;
-}
-
-.labelright {
-	text-align: right;
 }
 
 .card-block {
